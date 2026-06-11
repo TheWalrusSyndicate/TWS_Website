@@ -1,13 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>TWSWebsiteAngular</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href="./styles.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <header>
+            <a href = "./home.html"><img src="img/walrus-syndicate-logo.png" class="logo"></a>
+            <div class = "header-panel">
+                <nav class = "external-nav">
+                    <div><a href = "https://github.com/TheWalrusSyndicate"><img src="img/github-logo.png"></a></div>
+                    <div><a href = ""><img src="img/email-logo.png"></a></div>
+                    <form class="search-bar">
+                        <img src="img/search-icon.png">
+                        <input type="text">
+                    </form>
+                    <div class="img/account-icon"><a href = "create-account.html"><img src="img/walrus-syndicate-logo.png"></a></div>
+                </nav>
+                <nav class = "internal-nav">
+                    <div class="selected-nav"><a href="index.html">Home</a></div>
+                    <div><a href="projects.html">Projects</a></div>
+                    <div><a href="about.html">About</a></div>
+                    <div><a href="contact.html">Contact</a></div>
+                </nav>
+            </div>
+        </header>
+        <h1>The Walrus Syndicate</h1>
+        <p>
+            Im an indie game dev whos been working on projects since 2019. This site is
+            a hub for sharing all projects and a few web demos of some of my
+            favorites
+        </p>
+
+        <button type="button" onclick="location.href='projects.html'">Play my Web Demos</button>
+    </body>
 </html>
